@@ -43,7 +43,7 @@ int main(void)
 
     while(1){
         gpio_toggle(GPIOC, GPIO6);
-        delay_ms(1000);
+        delay_ms(500);
         printf("Hello World! :3c");
     }
 
