@@ -7,7 +7,7 @@ Queue debug_msg;
 
 //necessary for printf to interact with hardware
 void _putchar(char character){
-    //while (debug_msg.size == debug_msg.capacity); //wait for queue to empty
+    while (debug_msg.size == debug_msg.capacity); //wait for queue to empty
     enqueue_char((uint8_t)character);
 }
 
