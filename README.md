@@ -1,11 +1,11 @@
 Easy "clone and go" repository for a libopencm3 based project using VScode as an IDE.
 
 # Instructions
- 1. git clone https://github.com/yspacedev/libopencm3-vscode-template.git your-project
- 2. cd your-project
- 3. ln -s /path/to/libopencm3
+ 1. `git clone https://github.com/yspacedev/libopencm3-vscode-template.git your-project`
+ 2. `cd your-project`
+ 3. `ln -s /path/to/libopencm3`
  4. modify `Makefile` to use your specific microcontroller
- 4. make
+ 4. `make`
 
 If you want libopencm3 installed in this repository instead of symlinking it, use `--recurse_submodules` when cloning or `git submodule update --init` after the clone. If you are downoading libopencm3 for the first time, compile it with `make` to build the binaries and generate code files (like nvic.h)
 
