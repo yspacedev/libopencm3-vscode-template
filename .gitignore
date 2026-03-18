@@ -1,5 +1,4 @@
 bin/
-libopencm3/
 *.elf
 *.bin
 generated.*.ld
