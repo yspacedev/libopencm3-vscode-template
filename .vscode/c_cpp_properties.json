@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/libopencm3/include/"
+            ],
+            "defines": [
+                "STM32G4"
+            ],
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "linux-gcc-arm",
+            "compilerPath": "/usr/bin/arm-none-eabi-gcc"
+        }
+    ],
+    "version": 4
+}

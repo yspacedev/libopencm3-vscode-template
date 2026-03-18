@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Cortex Debug",
+            "type": "cortex-debug",
+            "request": "launch",
+            "servertype": "openocd",
+            "cwd": "${workspaceRoot}",
+            "executable": "${workspaceRoot}/Project.elf",
+            "interface": "swd",
+            "configFiles": [
+                "interface/cmsis-dap.cfg",
+                "target/stm32g4x.cfg"
+            ],
+            "svdFile": "${workspaceRoot}/STM32G474xx.svd",
+            "runToEntryPoint": "main",
+            "preLaunchTask": "Build"
+        }
+    ]
+}

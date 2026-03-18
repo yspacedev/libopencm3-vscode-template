@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "systick.h": "c",
+        "common.h": "c",
+        "timer.h": "c",
+        "rcc.h": "c",
+        "stdint.h": "c"
+    }
+}
