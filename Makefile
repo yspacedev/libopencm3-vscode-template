@@ -10,7 +10,7 @@ OPENCM3_DIR = ./libopencm3
 
 #add all *.c files part of the firmware here
 CFILES = main.c
-CFILES += queue.c
+CFILES += utility.c
 CFILES += printf.c
 CFILES += debug.c
 
